@@ -1,0 +1,75 @@
+
+
+html,body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.50;
+    color: #666666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343434;
+    line-height: 1.2;
+}
+
+.space-top {
+    padding-top: 20px;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+dt, dd {
+    line-height: 2;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.comment-avatar {
+    margin-top: 5px;
+    width: 55px;
+    float: left;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.comment-content {
+    margin-left: 75px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 40px;
+}
+
+.comment h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.comment-meta {
+    margin-bottom: 15px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.text-default {
+    color: #e84c3d;
+}
+
+.comment .btn {
+    font-size: 12px;
+    padding: 7px;
+    min-width: 100px;
+    margin-top: 5px;
+    margin-bottom: -1px;
+}
+
