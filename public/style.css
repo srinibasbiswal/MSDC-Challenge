@@ -1,4 +1,54 @@
 /* CSS reset */
+.form{
+    background:#211f1f; width:470px; margin:0 auto; padding-left:50px; padding-top:20px;
+
+}
+.form fieldset{border:0px; padding:0px; margin:0px;}
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+.form input[type="text"] { width: 400px; }
+.form input[type="email"] { width: 400px; }
+.form input[type="password"] { width: 400px; }
+.form input.birthday{width:60px;}
+.form input.birthyear{width:120px;}
+.form label { color: #ffffff; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+.form label.month {width: 135px;}
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.form .select-style {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(http://www.ursart.com/iframe/twitterfeed/images/background-1.jpg),
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;}
+.form .gender {
+  width:410px;
+  color: #ffffff;
+  }
+.form input.buttom{ background-color: #ffffff;
+            color: #1b1f22 !important;
+            font-weight: 600;}
+.form input.buttom:hover    { background-color: #2a78f6; }
+
+.form p.gender {
+    padding-right: 10px;
+}
+
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
 	margin:0;
 	padding:0;
@@ -40,7 +90,7 @@ header{
 /* General Demo Style */
 body{
 	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background:url(images/bgnoise_lg.png);
+	background:url(http://www.ursart.com/iframe/twitterfeed/images/background-1.jpg);
 	font-weight: 400;
 	font-size: 15px;
 	color: #3a2127;
