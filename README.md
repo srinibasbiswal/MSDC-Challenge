@@ -9,7 +9,8 @@ https://msdc-challenge.firebaseapp.com/
 
 
 # Description
-* **index.html** - have the list of my favourite movies.
+* **index.html** - have the registration page.
+* **registration_success.html** -page showing on successfull registration and leads to movie_list.html.
+* **movie_list.html** - have the list of my favourite movies.
 * **movie_detail.html** -have the deatils of the first movie only and others are linked with IMDB.
-
 ***
